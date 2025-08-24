@@ -1,0 +1,1 @@
+launch: java -cp build/libs/assignment.jar edu.odu.cs.cs361.Decode
