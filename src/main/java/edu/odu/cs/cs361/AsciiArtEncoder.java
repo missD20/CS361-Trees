@@ -23,7 +23,7 @@ public class AsciiArtEncoder {
     private TreeNode encodeHelp(int x0, int y0, int w, int h) {
 
         if (w == 0 || h == 0) {
-            return new TreeNode(' ', 0, 0);
+            return new TreeNode(' ', w, h);
         }
 
 
